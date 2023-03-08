@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style_calc.css">
+    <script src="func_calc.js"></script>
+</head>
+<body>
+
+    <div>
+        <input type="text" id="tela" readonly>
+        
+        <section>
+            <div>
+                <button class="botão" onclick="pegarop('/')">/</button>
+                <button class="botão" onclick="pegarop('*')">*</button>
+                <button class="botão" onclick="limpar()">C</button>
+                <button class="botão">&larr;</button>
+                
+            </div>
+
+            <div>
+                <button class="botão" onclick="pegarnum(7)">7</button>
+                <button class="botão" onclick="pegarnum(8)">8</button>
+                <button class="botão" onclick="pegarnum(9)">9</button>
+                <button class="botão" onclick="pegarop('-')">-</button>
+            </div>
+
+            <div>
+                <button class="botão" onclick="pegarnum(4)">4</button>
+                <button class="botão" onclick="pegarnum(5)">5</button>
+                <button class="botão" onclick="pegarnum(6)">6</button>
+                <button class="botão" onclick="pegarop('+')">+</button>
+            </div>
+
+            <div>
+                <button class="botão" onclick="pegarnum(1)">1</button>
+                <button class="botão" onclick="pegarnum(2)">2</button>
+                <button class="botão" onclick="pegarnum(3)">3</button>
+                <button class="botão" onclick="igualdade()">=</button>
+            </div>
+            <div><button id="botão_zero" onclick="pegarnum(0)">0</button></div>
+        </section>
+        
+    </div>
+
+    
+</body>
+</html>
