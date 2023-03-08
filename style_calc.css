@@ -1,0 +1,39 @@
+body{
+    background-color: #006400;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    
+}
+
+#calculadora{
+    display: inline-block;
+    font-size: 1%;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+
+}
+
+.botão{
+    width: 22%;
+    background-color: #DAA520;
+}
+
+#botão_zero{
+    width: 97%;
+    background-color: #DAA520;
+}
+
+#apagar_tudo{
+    width: 30px;
+}
+
+#apagar_num{
+    padding: 1px 11px;
+}
+
+#tela{
+    width: 125px;
+    background-color: #FAEBD7;
+}
